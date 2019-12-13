@@ -1,0 +1,25 @@
+{
+  "name": "number-to-words",
+  "version": "1.0.0",
+  "description": "Convert numbers to words.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirsanni/number-to-words-js.git"
+  },
+  "keywords": [
+    "Number",
+    "Words",
+    "Figures",
+    "Convert."
+  ],
+  "author": "Amir Sanni <amirsanni@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirsanni/number-to-words-js/issues"
+  },
+  "homepage": "https://github.com/amirsanni/number-to-words-js#readme"
+}
