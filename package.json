@@ -1,5 +1,5 @@
 {
-  "name": "number-to-words",
+  "name": "@amirsanni/number-to-words",
   "version": "1.0.0",
   "description": "Convert numbers to words, with an optional country code.",
   "main": "src/app.js",
