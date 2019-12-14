@@ -50,10 +50,9 @@ const handlers = {
     
         let mill_word = mill.length == 3 ? this.handleHundreds(mill) : (mill.length == 2 ? this.handleTwoDigits(mill) : this.handleXDigits(mill));
     
-        // return (mill_word.trim() && th_word.trim() ? mill_word." Million, " : (mill_word.trim() ? mill_word." Million" : ""))+(th_word.trim() ? th_word : "");
         let comma = mill_word.trim() && th_word.trim() ? ', ' : '';
 
-        return `${mill_word} Million${comma} ${th_word.trim()}`;
+        return `${mill_word} Million${comma}${th_word.trim()}`;
     },
 
 
