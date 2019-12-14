@@ -2,7 +2,7 @@ const handler = require('./handlers');
 const currency = require('./currencies');
 
 
-module.exports = function(fig, currencyCode){
+module.exports = (fig, currencyCode)=>{
     let main_word;
     let brokenFigures = fig.toString().split('.');
     let number = brokenFigures[0];
