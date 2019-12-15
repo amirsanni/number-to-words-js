@@ -12,8 +12,12 @@ AED, AFN, ANG, ARS, AUD, BRL, CAD, CHF, CNY, DKK, DZD, EGP, EUR, GBP, GHC, GHS, 
 
 
 # How to use
-_const convert = require('number-to-words');_
+```
+const convert = require('number-to-words');
+```
 
-_convert(3490948028.56, "NGN");_
+```
+convert(3490948028.56, "NGN");
+```
 
 Returns **Three Billion, Four Hundred and Ninety Million, Nine Hundred and Forty-Eight Thousand, and Twenty-Eight Naira, Fifty-Six Kobo**.
